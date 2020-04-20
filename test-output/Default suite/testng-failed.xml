@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="com.delta.tests.FlightResultPageTest">
+        <methods>
+          <include name="returnDate"/>
+          <include name="clickOnDropDown"/>
+          <include name="tearDownDriver"/>
+          <include name="departure"/>
+          <include name="departureDate"/>
+          <include name="setUpSuite"/>
+          <include name="passengersQuantity"/>
+          <include name="destination"/>
+          <include name="tearDownSuit"/>
+          <include name="bestMatch"/>
+          <include name="submitSutton"/>
+        </methods>
+      </class> <!-- com.delta.tests.FlightResultPageTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
